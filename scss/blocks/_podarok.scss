@@ -1,0 +1,21 @@
+.podarok {
+  &__container {
+    text-align: center;
+    background: #efefef;
+    padding: 88px 170px 48px 170px;
+  }
+  &__img {
+    width: 154px;
+    height: 174px;
+    margin-bottom: 45px;
+  }
+  &__text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    color: #252525;
+    margin-bottom: 51px;
+  }
+}

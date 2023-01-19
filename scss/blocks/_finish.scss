@@ -1,0 +1,40 @@
+.finish {
+  &__container {
+    padding: 81px 300px 0 300px;
+    text-align: center;
+  }
+  &__img {
+    width: 342px;
+    height: 201px;
+    margin-bottom: 36px;
+  }
+  &__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #252525;
+    margin-bottom: 30px;
+  }
+  &__title_blue {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #299cbd;
+    margin-bottom: 25px;
+  }
+  &__text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    color: #4a4a4a;
+    margin-bottom: 50px;
+  }
+}

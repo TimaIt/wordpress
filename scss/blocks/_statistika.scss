@@ -1,0 +1,51 @@
+.statistika {
+  &__container {
+    padding: 70px 150px;
+    background-image: url(../../image/second_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+  &__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #efefef;
+    margin-bottom: 18px;
+  }
+  &__list {
+    margin-top: 40px;
+    display: flex;
+    gap: 13px;
+  }
+  &__item {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  &__wrapper {
+    margin: 0 auto;
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    background: #b4e2ff;
+  }
+  &__img {
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  &__text {
+    margin-top: 25px;
+    width: 200px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: #efefef;
+  }
+}
